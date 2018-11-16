@@ -12,13 +12,14 @@ struct queue
     Elememt    array[capacity];  
 }Queue_s;
 
+/*
 enum  error
 {
 
 
 
 }Error_e;/*error type*/
-
+*/
 void        QueueInit(queue_s  *queue)；
 ElemenType  Dequeue(Queue_s *queue);
 void        Equeue(Queue_s *queue,ElemenType X);
